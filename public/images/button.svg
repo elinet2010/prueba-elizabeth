@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 36 20">
+  <g id="Grupo_4615" data-name="Grupo 4615" transform="translate(-23 -194.087)">
+    <g id="Buttom_-_Active" data-name="Buttom - Active" transform="translate(23 194.087)">
+      <g id="Rectángulo_499" data-name="Rectángulo 499" fill="#e6484b" stroke="#fff" stroke-width="2">
+        <rect width="36" height="20" rx="10" stroke="none"/>
+        <rect x="1" y="1" width="34" height="18" rx="9" fill="none"/>
+      </g>
+      <circle id="Elipse_127" data-name="Elipse 127" cx="6" cy="6" r="6" transform="translate(4 4)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

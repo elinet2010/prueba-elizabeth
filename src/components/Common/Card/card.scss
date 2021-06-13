@@ -1,0 +1,57 @@
+.card {
+    background:#fff;
+    border-radius: 15px;
+    border: 1px solid #E6E6E6;
+    padding: 17px 10px;
+}
+
+.card--flex {
+    display: flex;
+    border: 1px solid #C8C8C8;
+}
+.card__item {
+    position: relative;
+    padding: 0 7px;
+    padding-left: 25px;
+    width: 100%;
+    &:after {
+        content: "";
+        width: 1px;
+        height: 84%;
+        background: #E6E6E6;
+        position: absolute;
+        top: 8%;
+        left: 0;
+        z-index: 1;
+    }
+    &:first-of-type {
+        padding-left: 7px;
+        &:after {
+            display: none;
+        }
+    }
+}
+.card__image{
+    float: left;
+    height: 100%;
+    margin-right: 26px;
+    display: inline-flex;
+}
+.card__title{
+    color: #6E6E6E;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.card__description{
+    color: #000000;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.card__publicidad {
+    float: left;
+    width: 194px;
+}

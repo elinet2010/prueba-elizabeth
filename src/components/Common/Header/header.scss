@@ -1,0 +1,35 @@
+.header {
+  height: 58px;
+  width: auto;
+  background: #ffffff;
+  box-shadow:#707070 0px -1px 6px;
+  .header__nav {
+    margin: auto 10px;
+    width: calc(100% - 20px);
+    height: 58px;
+    display: flex;
+  }
+  .header__logo {
+    width: 80px;
+    height: auto;
+    margin: auto auto auto 6px;
+    &.header__logo--center {
+      margin: auto;
+    }
+    .logo {
+        width: inherit;
+    }
+  }
+  .header__menu {
+    padding: 10px;
+    width: auto;
+    display: inline-flex;
+  }
+  .header__images {
+    float: right;
+    display: inline-flex;
+    img {
+      padding: 12px;
+    }
+  }
+}
